@@ -1,0 +1,78 @@
+:root {
+  --prymary: #2f2164;
+  --bg: #583fbd;
+  --text-prymary: #d9d9d9;
+  --text-secondary: #d48a46;
+  --bg-wave: #bbaaff;
+}
+/* Source Font */
+@font-face {
+  font-family: "MyFavorite";
+  src: url(./Font/Poppins/Poppins-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Tittle";
+  src: url(./Font/Poppins/Poppins-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Heading";
+  src: url(./Font/Poppins/Poppins-ExtraBold.ttf);
+}
+/* Source Font End */
+
+body {
+  background-color: var(--bg);
+  color: var(--text-prymary);
+  font-family: "MyFavorite";
+}
+
+/* Navbar */
+#navbar {
+  background-color: var(--prymary);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+}
+nav h1 {
+  font-family: "Tittle";
+}
+nav h1 span {
+  color: var(--text-secondary);
+}
+/* Navbar End */
+/* Hero Section */
+.container .text-center h1 {
+  font-family: "Heading";
+  margin: 2rem;
+  font-size: 24pt;
+}
+.container .text-center h1 span {
+  color: var(--text-secondary);
+}
+img {
+  width: 562px;
+  margin-bottom: 0.5rem;
+  margin-left: 0.5rem;
+}
+.btn {
+  background-color: var(--text-secondary);
+  color: var(--text-prymary);
+  margin: 2rem;
+  font-size: 16pt;
+  font-family: "Tittle";
+  padding: 0.5rem 4rem;
+}
+/* Hero Section End */
+/* Footer */
+footer {
+  background-color: var(--prymary);
+  padding: 2rem 0 1rem 0;
+  bottom: 0;
+}
+footer .text-center {
+  font-size: 10pt;
+}
+/* Footer End */

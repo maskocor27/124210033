@@ -1,0 +1,183 @@
+:root {
+  --prymary: #2f2164;
+  --bg: #583fbd;
+  --text-prymary: #d9d9d9;
+  --text-secondary: #d48a46;
+  --bg-wave: #bbaaff;
+}
+/* Source Font */
+@font-face {
+  font-family: "MyFavorite";
+  src: url(./Font/Poppins/Poppins-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Tittle";
+  src: url(./Font/Poppins/Poppins-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Heading";
+  src: url(./Font/Poppins/Poppins-ExtraBold.ttf);
+}
+/* Source Font End */
+
+body {
+  background-color: var(--bg);
+  color: var(--text-prymary);
+  font-family: "MyFavorite";
+}
+
+/* Navbar */
+#navbar {
+  background-color: var(--prymary);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+}
+nav h1 {
+  font-family: "Tittle";
+}
+nav h1 span {
+  color: var(--text-secondary);
+}
+/* Navbar End */
+
+/* Hero Section */
+#Hero {
+  background-color: var(--bg);
+  width: auto;
+  color: var(--text-prymary);
+  margin-bottom: 0rem;
+}
+.container .text-center img {
+  width: 240px;
+  margin: 1.4rem;
+  border-radius: 50%;
+}
+.container .text-center h1 {
+  font-family: "Heading";
+  margin: 2rem 2rem 0.5rem 2rem;
+  font-size: 24pt;
+}
+.container .text-center h1 span {
+  color: var(--text-secondary);
+}
+.container .text-center p {
+  font-weight: bold;
+  font-size: 16pt;
+  margin: 0;
+}
+.container .text-center p span {
+  color: var(--text-secondary);
+}
+.container .text-center p:nth-child(4) {
+  font-style: italic;
+  margin-bottom: 1.5rem;
+  font-size: 14pt;
+}
+.container .text-center p:nth-child(5) {
+  margin-bottom: 1rem;
+}
+.container .text-center .icon {
+  width: 54px;
+  margin: 0;
+}
+/* Hero Section End*/
+
+/* Biodata Section */
+.container-fluid {
+  background-color: var(--bg-wave);
+}
+.container-fluid .container {
+  color: var(--prymary);
+  background-color: var(--bg-wave);
+}
+#bio {
+  padding: 3.65rem;
+}
+#pbio {
+  width: 20rem;
+  border-radius: 2rem;
+  margin: 1rem 0.5rem 0 1.6rem;
+}
+#biodata {
+  background-color: var(--prymary);
+  color: var(--text-prymary);
+  font-family: "Heading";
+  padding: 0.5rem 0rem;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+}
+.card {
+  background-color: whitesmoke;
+  border-radius: 1rem;
+} 
+.card .card-body p{
+  font-family: 'Tittle';
+  font-size: 18pt;
+  padding-bottom: 0.4rem;
+}
+#isi-bio {
+  background-color: whitesmoke;
+}
+#isi-bio .col-5 p {
+  font-family: "Tittle";
+  font-size: 14pt;
+}
+#isi-bio .col p {
+  font-family: "MyFavorite";
+  font-size: 14pt;
+}
+#last-bio .col-5 p {
+  font-family: "Tittle";
+  font-size: 14pt;
+}
+#last-bio .col p {
+  font-family: "MyFavorite";
+  font-size: 14pt;
+}
+#last-bio {
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  margin-bottom: 2rem;
+  background-color: whitesmoke;
+}
+/* Biodata Section End */
+
+/* Share Section */
+#share {
+  margin-bottom: 2rem;
+}
+#share h1 {
+  font-family: "Heading";
+  color: var(--text-prymary);
+  margin-bottom: 2rem;
+}
+#share h1 span {
+  color: var(--text-secondary);
+}
+#share p {
+  font-size: 16pt;
+  margin: 0;
+}
+.btn {
+  background-color: var(--text-secondary);
+  color: var(--text-prymary);
+  margin: 2rem;
+  font-size: 18pt;
+  font-family: 'Tittle';
+  padding: 0.5rem 4rem;
+}
+/* Share Section End *?
+
+/* Footer */
+footer {
+  background-color: var(--prymary);
+  padding: 2rem 0 1rem 0;
+}
+footer {
+  font-size: 10pt;
+}
+/* Footer End *?
